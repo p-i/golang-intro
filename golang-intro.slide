@@ -9,10 +9,12 @@ oleg@p-i.net
 
 * Structure of this talk
 
-- What is it?
 - History of Go
--- Success Stories
+- Main advantages
+- Success stories
 - Syntax basics
 - Collections
 - Concurrency
+- TDD
 - Demo
+- Useful links
