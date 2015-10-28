@@ -5,7 +5,14 @@ Tags:
 
 Oleg Fomiciov
 oleg@p-i.net
+@fomiciov
 
-* Purpose of this talk
+* Structure of this talk
 
-blah-blah-balh
+- What is it?
+- History of Go
+- Success Stories
+- Syntax basics
+- Collections
+- Concurrency
+- Demo
