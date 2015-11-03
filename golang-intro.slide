@@ -24,13 +24,13 @@ oleg@p-i.net
 
 Go is an open source project developed by a team at Google and many contributors from the open source community.
 
-Release history:
+** Release history:
 
 - Go 1: March 2012
 - ...
 - Go 1.5: August 2015
 
-_Programs written to the Go 1 specification will continue to compile and run correctly, unchanged, over the lifetime of that specification._
+_Programs_written_to_the_Go_1_specification_will_continue_to_compile_and_run_correctly,_unchanged,_over_the_lifetime_of_that_specification._
 
 * The Go tools - out of the box
 
