@@ -22,7 +22,7 @@ oleg@p-i.net
 
 * History of Go
 
-Go is an open source project developed by a team at Google and many contributors from the open source community.
+Go is an open source project developed by a team at Google in 2007. It is a statically typed garbage collected language with C-like syntax and structural typing capabilities.
 
 ** Release history:
 
