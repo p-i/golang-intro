@@ -11,10 +11,33 @@ oleg@p-i.net
 
 - History of Go
 - Main advantages
-- Success stories
+- Success stories?
 - Syntax basics
 - Collections
 - Concurrency
 - TDD
+- Tools
 - Demo
 - Useful links
+
+* The Go tools - out of the box
+
+	$ go help
+	Go is a tool for managing Go source code.
+
+	Usage:
+
+		go command [arguments]
+
+	The commands are:
+
+Worth exploring! Some highlights:
+
+    build       compile packages and dependencies
+    get         download and install packages and dependencies
+    install     compile and install packages and dependencies
+    test        test packages
+    fmt         run gofmt on package sources    
+    vet         run go tool vet on package
+	    
+There is more useful stuff. Try `go help [command]`
