@@ -24,20 +24,21 @@ oleg@p-i.net
 
 	$ go help
 	Go is a tool for managing Go source code.
-
+	
 	Usage:
-
+	
 		go command [arguments]
-
+	
 	The commands are:
 
-Worth exploring! Some highlights:
+Among other useful commands:
 
-    build       compile packages and dependencies
-    get         download and install packages and dependencies
-    install     compile and install packages and dependencies
-    test        test packages
-    fmt         run gofmt on package sources    
-    vet         run go tool vet on package
+	build       compile packages and dependencies
+	get         download and install packages and dependencies
+	install     compile and install packages and dependencies
+	test        test packages
+	fmt         run gofmt on package sources    
+	vet         run go tool vet on package
 	    
-There is more useful stuff. Try `go help [command]`
+There is more. To explore run: 
+	go help [command]
