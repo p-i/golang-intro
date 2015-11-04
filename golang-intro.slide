@@ -33,6 +33,12 @@ Go is an open source project developed by a team at Google in 2007. It is a stat
 
 Designed to be simple. The entire language spec [[http://golang.org/ref/spec][fits]] in just a few pages.
 
+* Authors
+
+Go was originally designed by Robert Griesemer, Rob Pike, and Ken Thompson.
+
+#.image images/
+
 * The Go tools - out of the box
 
 	$ go help
