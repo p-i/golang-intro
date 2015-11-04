@@ -30,7 +30,7 @@ Release history:
 
 	Programs written to the Go 1 specification will continue to compile and run correctly, unchanged, over the lifetime of that specification.
 
-Designed to be simple. The entire language spec [[http://golang.org/ref/spec][fits]] in just a few pages.
+Designed to be simple. The entire language [[http://golang.org/ref/spec][spec fits]] in just a few pages.
 
 * Authors
 
