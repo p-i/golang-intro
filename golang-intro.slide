@@ -62,6 +62,14 @@ There is more. To explore run:
 
 	go help [command]
 	
+* Syntax Basics - Type Inference
+
+.play inference.go
+
+* Syntax Basics - Imports/Exports
+
+.play export.go
+
 * Links
 
 - link
