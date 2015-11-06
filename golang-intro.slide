@@ -70,6 +70,16 @@ There is more. To explore run:
 
 .play export.go
 
+* Syntax Basics - Pointers
+
+.play pointers.go
+
+* Collections - Arrays and Slices
+
+.play collections.go
+
+* Collections - Maps
+
 * Links
 
 - link

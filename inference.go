@@ -3,10 +3,13 @@ package main
 import "fmt"
 
 func main() {
-    action := func() {
-        name := "The Ultimate Answer"
-        value := 42
-        fmt.Printf("%s: %d", name, value)
+
+    action := func(value interface{}) {
+        fmt.Printf("The Ultimate Answer: %v of type %T \n", value, value)
     }
-    action()
+
+    action(42)
+    action(42.00)
+    action("42")
+    action(true)
 }
