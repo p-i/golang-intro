@@ -78,7 +78,13 @@ There is more. To explore run:
 
 .play collections.go
 
+* Collections - Make
+
+.play collections2.go
+
 * Collections - Maps
+
+.play maps.go
 
 * Links
 

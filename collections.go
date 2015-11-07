@@ -4,15 +4,15 @@ import "fmt"
 
 func main() {
 
-    a := [...]string{"hello", "world!", "let's", "put", "some", "more", "words", "here"}  //implicit length
+    // implicit length
+    array := [...]string{"hello", "world!", "let's", "put", "some", "more", "words", "here"}
+    fmt.Printf("%q\n", array)
+    fmt.Println(array[0], array[1])
 
-    fmt.Printf("%q\n", a)
-    fmt.Println(a[0], a[1])
-
-    slice := a[0:1]
+    slice := array[0:1]
     fmt.Printf("%q\n", slice)
 
-    slice = a[0:2]
+    slice = array[0:2]
     fmt.Printf("%q\n", slice)
 
     slice = append(slice, "!!!")
