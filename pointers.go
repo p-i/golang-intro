@@ -1,25 +1,24 @@
 package main
-
 import "fmt"
 
 type User struct {
-    Name, Location string
+    Name, Team string
 }
 
 func (u *User) Greetings() string {
-    return fmt.Sprintf("Hi %s from %s", u.Name, u.Location)
+    return fmt.Sprintf("Hi %s from team %s", u.Name, u.Team)
 }
 
-type Player struct {
+type Employee struct {
     *User
 }
 
-func NewPlayer(name, location string) *Player {
-    return &Player{
-        User:   &User{name, location},
+func NewEmployee(name, team string) *Employee {
+    return &Employee{
+        User:   &User{name, team},
     }
 }
 
 func main() {
-    fmt.Println(NewPlayer("Matt", "LA").Greetings())
+    fmt.Println(NewEmployee("Matt", "BAs").Greetings())
 }

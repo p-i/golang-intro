@@ -11,4 +11,8 @@ func main() {
     for key, value := range cities {
         fmt.Printf("%s has %d inhabitants\n", key, value)
     }
+    fmt.Println()
+    for _, value := range cities {
+        fmt.Printf("some city has %d inhabitants\n", value)
+    }
 }
